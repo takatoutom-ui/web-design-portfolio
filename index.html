@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WEB DESIGN｜〇〇県のWebデザイナー 山田花子</title>
+<meta name="description" content="〇〇県を拠点に活動するWebデザイナー山田花子（WEB DESIGN）のポートフォリオサイトです。ホームページ・バナー・チラシ・名刺デザインなど、Webと紙のデザインをまとめて対応します。">
+
+<!-- OGP -->
+<meta property="og:title" content="WEB DESIGN｜〇〇県のWebデザイナー 山田花子">
+<meta property="og:description" content="言葉にならない想いを、伝わるデザインに。ホームページ・バナー・チラシ・名刺まで、Webと紙で統一感のあるデザインをおつくりします。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://tandm-web.com/">
+<meta property="og:image" content="img/fv.png">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ Header ============ -->
+<header class="header" id="header">
+  <div class="header__inner">
+    <a href="#" class="header__logo" aria-label="WEB DESIGN トップへ">
+      <!-- ロゴ画像に差し替え可: <img src="img/logo.png" alt="WEB DESIGN"> -->
+      WEB DESIGN
+    </a>
+
+    <button class="header__toggle" id="navToggle" aria-expanded="false" aria-controls="navList" aria-label="メニューを開く">
+      <span class="header__toggle-bar"></span>
+      <span class="header__toggle-bar"></span>
+      <span class="header__toggle-bar"></span>
+    </button>
+
+    <nav class="header__nav" id="navList">
+      <ul class="header__nav-list">
+        <li><a href="#about" class="header__nav-link">About</a></li>
+        <li><a href="#skills" class="header__nav-link">Skills</a></li>
+        <li><a href="#works" class="header__nav-link">Works</a></li>
+        <li><a href="#faq" class="header__nav-link">FAQ</a></li>
+        <li><a href="#contact" class="header__nav-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn--small header__nav-cta">お問い合わせ</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ FV ============ -->
+  <section class="fv" id="fv">
+    <div class="fv__inner">
+      <div class="fv__text">
+        <p class="fv__name">松崎 智子 <span class="fv__name-en">TOMOKO MATSUZAKI</span></p>
+        <h1 class="fv__catch">
+          言葉にならない想いを、<br>
+          <span class="fv__catch-accent">伝わるデザイン</span>に。
+        </h1>
+        <p class="fv__role">Webデザイナー（Webサイト・バナー・チラシ・名刺デザイン）</p>
+        <p class="fv__sub">ホームページ・バナー・チラシ・名刺まで。お店の世界観を丁寧にくみ取り、Webと紙で統一感のあるデザインをまとめてつくります。</p>
+        <div class="fv__actions">
+          <a href="#contact" class="btn btn--primary">お問い合わせはこちら</a>
+          <a href="#works" class="fv__link">実績を見る &rarr;</a>
+        </div>
+      </div>
+      <div class="fv__visual">
+        <img src="img/fv.png" alt="Webサイトを虫眼鏡で見る女性のイラスト" class="fv__img" width="1224" height="982">
+      </div>
+    </div>
+    <div class="fv__scroll">
+      <span class="fv__scroll-icon" aria-hidden="true"></span>
+      <span class="fv__scroll-text">SCROLL</span>
+    </div>
+  </section>
+
+  <!-- ============ About ============ -->
+  <section class="about" id="about">
+    <div class="section-inner">
+      <div class="section-heading">
+        <p class="section-heading__en">ABOUT</p>
+        <h2 class="section-heading__ja">自己紹介</h2>
+      </div>
+
+      <div class="about__content">
+        <div class="about__mark" aria-hidden="true">
+          <!-- 差し替え位置：ここに正方形のプロフィール写真を差し替え可能（img/profile.jpg 等） -->
+          <div class="about__mark-circle">T&amp;M</div>
+        </div>
+
+        <div class="about__body">
+          <p class="about__lead">
+            〇〇県を拠点に、ホームページ・バナー・チラシ・名刺などのデザインを手がけるWebデザイナーです。事務職を10年経験したのち、職業訓練でWebデザインを学び、パソコンインストラクターと並行して15年間デザインに携わってきました。2023年に「WEB DESIGN」として独立し、制作実績は45件以上です。大切にしているのは、丁寧なヒアリングで、お客様の言葉にならない想いや世界観をくみ取ること。小さなお店の予算感に合わせて、Webと紙で統一感のあるデザインをご提案します。
+          </p>
+
+          <ul class="about__list">
+            <li class="about__list-item">Webデザイナー歴15年。2023年に独立し、制作実績45件以上</li>
+            <li class="about__list-item">Webサイト・バナーから、チラシ（30件以上）・名刺まで、Webと紙のデザインをまとめて対応</li>
+            <li class="about__list-item">丁寧なヒアリングで、世界観や言葉にならない要望をくみ取る（マツエクサロンのサイトとSNS投稿を同じ世界観で制作）</li>
+            <li class="about__list-item">小さなお店の予算感に合わせた、無理のないご提案</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Skills ============ -->
+  <section class="skills" id="skills">
+    <div class="section-inner">
+      <div class="section-heading">
+        <p class="section-heading__en">SKILLS</p>
+        <h2 class="section-heading__ja">できること</h2>
+      </div>
+
+      <div class="skills__grid">
+
+        <article class="skill-card">
+          <span class="skill-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="6" y="10" width="36" height="26" rx="2" stroke="currentColor" stroke-width="2"/><path d="M6 16H42" stroke="currentColor" stroke-width="2"/><circle cx="10.5" cy="13" r="1" fill="currentColor"/><circle cx="14.5" cy="13" r="1" fill="currentColor"/><path d="M18 38H30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </span>
+          <h3 class="skill-card__title">ホームページ制作</h3>
+          <p class="skill-card__desc">お店の世界観や想いを丁寧にヒアリングし、構成からデザインまで形にします。スマートフォンでも見やすいサイトをおつくりします。</p>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="5" y="14" width="38" height="20" rx="2" stroke="currentColor" stroke-width="2"/><path d="M12 22L18 27L28 17L36 25" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <h3 class="skill-card__title">バナー制作</h3>
+          <p class="skill-card__desc">Web広告やサイト用のバナーを、目的に合わせてデザインします。ひと目で伝わる、わかりやすさを大切にします。</p>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 6H30L36 12V42H12V6Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M30 6V12H36" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M17 22H31" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M17 28H31" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M17 34H25" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </span>
+          <h3 class="skill-card__title">チラシ・フライヤー制作</h3>
+          <p class="skill-card__desc">30件以上の制作経験をもとに、手に取ってもらえるチラシをデザインします。ホームページと統一感のあるデザインにも対応します。</p>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="5" y="13" width="38" height="22" rx="2" stroke="currentColor" stroke-width="2"/><circle cx="16" cy="24" r="4" stroke="currentColor" stroke-width="2"/><path d="M26 20H37" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M26 28H33" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </span>
+          <h3 class="skill-card__title">名刺・ショップカード制作</h3>
+          <p class="skill-card__desc">お店や事業の印象が伝わる名刺・ショップカードをおつくりします。Webと紙で、ブランドの雰囲気をそろえます。</p>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="8" y="4" width="32" height="40" rx="3" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="24" r="7" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="24" r="2" fill="currentColor"/><circle cx="33" cy="12" r="1.5" fill="currentColor"/></svg>
+          </span>
+          <h3 class="skill-card__title">SNS投稿画像の制作</h3>
+          <p class="skill-card__desc">Instagramなどの投稿画像を、サイトと同じ世界観でデザインします。発信に統一感が出て、お店らしさが伝わります。</p>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 8V16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M24 32V40" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M35 13L29.5 18.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M13 35L18.5 29.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M40 24H32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M16 24H8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M35 35L29.5 29.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M13 13L18.5 18.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="24" cy="24" r="5" stroke="currentColor" stroke-width="2"/></svg>
+          </span>
+          <h3 class="skill-card__title">ホームページの更新・運用サポート</h3>
+          <p class="skill-card__desc">公開後の情報更新や修正に対応します。長く安心して使えるよう、サイト運用をサポートします。</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Works Intro (ベタ塗り) ============ -->
+  <section class="works-intro">
+    <div class="section-inner">
+      <div class="section-heading section-heading--light">
+        <p class="section-heading__en">WORKS</p>
+        <h2 class="section-heading__ja">制作実績</h2>
+      </div>
+      <p class="works-intro__text">これまで手がけたホームページ・ロゴ・チラシ・バナーの一部をご紹介します。</p>
+    </div>
+  </section>
+
+  <!-- ============ Works ============ -->
+  <section class="works" id="works">
+    <div class="section-inner">
+      <div class="works__grid" id="worksGrid">
+        <!-- JSで生成 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="faq" id="faq">
+    <div class="section-inner">
+      <div class="section-heading">
+        <p class="section-heading__en">FAQ</p>
+        <h2 class="section-heading__ja">よくある質問</h2>
+      </div>
+
+      <div class="faq__list" id="faqList">
+
+        <div class="faq__item">
+          <h3 class="faq__question-wrap">
+            <button class="faq__question" id="faq-q1" aria-expanded="false" aria-controls="faq-a1">
+              制作の費用感を教えてください。
+              <span class="faq__icon" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="faq__answer" id="faq-a1" role="region" aria-labelledby="faq-q1">
+            <p>内容と規模によって変動します。まずはご相談ください。お見積りは無料です。</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <h3 class="faq__question-wrap">
+            <button class="faq__question" id="faq-q2" aria-expanded="false" aria-controls="faq-a2">
+              対応できる範囲はどこまでですか？
+              <span class="faq__icon" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="faq__answer" id="faq-a2" role="region" aria-labelledby="faq-q2">
+            <p>ホームページの構成設計・デザイン・コーディング・公開作業から、バナー・チラシ・名刺などのデザインまで対応可能です。</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <h3 class="faq__question-wrap">
+            <button class="faq__question" id="faq-q3" aria-expanded="false" aria-controls="faq-a3">
+              納期はどのくらいかかりますか？
+              <span class="faq__icon" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="faq__answer" id="faq-a3" role="region" aria-labelledby="faq-q3">
+            <p>ホームページで1〜2ヶ月、チラシ・名刺で1〜2週間が目安です。お急ぎの場合はご相談ください。</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <h3 class="faq__question-wrap">
+            <button class="faq__question" id="faq-q4" aria-expanded="false" aria-controls="faq-a4">
+              リモートのみでの進行は可能ですか？
+              <span class="faq__icon" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="faq__answer" id="faq-a4" role="region" aria-labelledby="faq-q4">
+            <p>可能です。オンラインMTGとチャットで全国対応しています。</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <h3 class="faq__question-wrap">
+            <button class="faq__question" id="faq-q5" aria-expanded="false" aria-controls="faq-a5">
+              公開後の修正や運用もお願いできますか？
+              <span class="faq__icon" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="faq__answer" id="faq-a5" role="region" aria-labelledby="faq-q5">
+            <p>対応可能です。更新のしやすい構成でお渡しし、公開後のサポートもご相談を承ります。</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Contact ============ -->
+  <section class="contact" id="contact">
+    <div class="section-inner">
+      <div class="section-heading section-heading--light">
+        <p class="section-heading__en">CONTACT</p>
+        <h2 class="section-heading__ja">お問い合わせ</h2>
+      </div>
+      <p class="contact__lead">ホームページ・バナー・チラシ・名刺のご相談、お見積りは無料です。<br>まずはお気軽にお問い合わせください。</p>
+      <a href="#" class="btn btn--white" target="_blank" rel="noopener">お問い合わせはこちら</a>
+
+      <!-- SNSリンク配置位置（現時点では未配置。あとから追加する） -->
+
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ Footer ============ -->
+<footer class="footer">
+  <div class="footer__inner">
+    <p class="footer__logo">WEB DESIGN</p>
+    <p class="footer__copyright">&copy; 2026 WEB DESIGN</p>
+    <button class="footer__top" id="pageTop" aria-label="ページトップへ戻る">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 19V5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M6 11L12 5L18 11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+  </div>
+</footer>
+
+<!-- ============ Modal ============ -->
+<div class="modal" id="workModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+  <div class="modal__overlay" id="modalOverlay"></div>
+  <div class="modal__panel">
+    <button class="modal__close" id="modalClose" aria-label="閉じる">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <div class="modal__image">
+      <img src="" alt="" id="modalImg">
+    </div>
+    <div class="modal__body">
+      <p class="modal__category" id="modalCategory"></p>
+      <h3 class="modal__title" id="modalTitle"></h3>
+      <dl class="modal__meta">
+        <div class="modal__meta-row">
+          <dt>担当範囲</dt>
+          <dd id="modalScope"></dd>
+        </div>
+        <div class="modal__meta-row">
+          <dt>課題と解決</dt>
+          <dd id="modalProblem"></dd>
+        </div>
+        <div class="modal__meta-row">
+          <dt>使用ツール</dt>
+          <dd id="modalTags"></dd>
+        </div>
+      </dl>
+      <a href="#" class="btn btn--primary btn--small" id="modalLink" target="_blank" rel="noopener">サイトを見る</a>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
